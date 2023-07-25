@@ -103,6 +103,7 @@ console.log("initial State",store.getState());
 // store.dispatch(orderCake());
 // store.dispatch(orderCake());
 // store.dispatch(restockCake(7));
+// store.dispatch(restockCake(7));
 
 const actions = bindActionCreators({orderCake,restockCake,orderIcecream,restockIcecream},store.dispatch)
 actions.orderCake()
